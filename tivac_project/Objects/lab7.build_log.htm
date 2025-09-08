@@ -1,0 +1,108 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.32.0.0
+Copyright (C) 2020 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: shrouk elkot, -, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.32.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.14.1
+Assembler:       Armasm.exe V6.14.1
+Linker/Locator:  ArmLink.exe V6.14.1
+Library Manager: ArmAr.exe V6.14.1
+Hex Converter:   FromElf.exe V6.14.1
+CPU DLL:         SARMCM3.DLL V5.32.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      lmidk-agdi.dll V???
+Dialog DLL:      TCM.DLL V1.46.0.0
+ 
+<h2>Project:</h2>
+C:\Users\Shrouk\Downloads\lab7\lab7.uvprojx
+Project File Date:  04/13/2025
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.14.1', folder: 'C:\Keil_v5\ARM\ARMCLANG\Bin'
+Rebuild target 'Target_1'
+project.c(5): warning: non-portable path to file '"inc/tm4c123gh6pm.h"'; specified path differs in case from file name on disk [-Wnonportable-include-path]
+#include "inc/TM4C123GH6PM.h"
+         ^~~~~~~~~~~~~~~~~~~~
+         "inc/tm4c123gh6pm.h"
+project.c(92): warning: passing an object that undergoes default argument promotion to 'va_start' has undefined behavior [-Wvarargs]
+va_start(vargs, num_of_args);
+                ^
+project.c(87): note: parameter of type 'uint8_t' (aka 'unsigned char') is declared here
+void I2CSend(uint8_t slave_addr, uint8_t num_of_args, ...){
+                                         ^
+project.c(94): warning: implicit conversion loses integer precision: 'uint32_t' (aka 'unsigned int') to 'uint8_t' (aka 'unsigned char') [-Wimplicit-int-conversion]
+I2CMasterDataPut(I2C_MODULE, va_arg(vargs, uint32_t));
+~~~~~~~~~~~~~~~~             ^~~~~~~~~~~~~~~~~~~~~~~
+C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdarg.h(43): note: expanded from macro 'va_arg'
+  #define va_arg(ap, type)    __builtin_va_arg(ap, type)
+                              ^~~~~~~~~~~~~~~~~~~~~~~~~~
+project.c(106): warning: implicit conversion loses integer precision: 'uint32_t' (aka 'unsigned int') to 'uint8_t' (aka 'unsigned char') [-Wimplicit-int-conversion]
+I2CMasterDataPut(I2C_MODULE, va_arg(vargs, uint32_t));
+~~~~~~~~~~~~~~~~             ^~~~~~~~~~~~~~~~~~~~~~~
+C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdarg.h(43): note: expanded from macro 'va_arg'
+  #define va_arg(ap, type)    __builtin_va_arg(ap, type)
+                              ^~~~~~~~~~~~~~~~~~~~~~~~~~
+project.c(112): warning: implicit conversion loses integer precision: 'uint32_t' (aka 'unsigned int') to 'uint8_t' (aka 'unsigned char') [-Wimplicit-int-conversion]
+I2CMasterDataPut(I2C_MODULE, va_arg(vargs, uint32_t));
+~~~~~~~~~~~~~~~~             ^~~~~~~~~~~~~~~~~~~~~~~
+C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdarg.h(43): note: expanded from macro 'va_arg'
+  #define va_arg(ap, type)    __builtin_va_arg(ap, type)
+                              ^~~~~~~~~~~~~~~~~~~~~~~~~~
+project.c(118): warning: no newline at end of file [-Wnewline-eof]
+}
+ ^
+project.c(35): warning: no previous extern declaration for non-static variable 'SW1' [-Wmissing-variable-declarations]
+unsigned long SW1,SW2; // input from PF4,PF0
+              ^
+project.c(35): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+unsigned long SW1,SW2; // input from PF4,PF0
+^
+project.c(35): warning: no previous extern declaration for non-static variable 'SW2' [-Wmissing-variable-declarations]
+unsigned long SW1,SW2; // input from PF4,PF0
+                  ^
+project.c(35): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+unsigned long SW1,SW2; // input from PF4,PF0
+^
+8 warnings generated.
+compiling project.c...
+linking...
+.\Objects\lab7.axf: Error: L6320W: Ignoring --entry command. Cannot find argument 'Reset_Handler'.
+.\Objects\lab7.axf: Warning: L6320W: Ignoring --first command. Cannot find argument '__Vectors'.
+Not enough information to list image symbols.
+Not enough information to list load addresses in the image map.
+Finished: 2 information, 1 warning and 1 error messages.
+".\Objects\lab7.axf" - 1 Error(s), 9 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                https://www.keil.com/pack/ARM.CMSIS.6.1.0.pack
+                ARM.CMSIS.6.1.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 6.1.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.TM4C_DFP.1.1.0.pack
+                Keil.TM4C_DFP.1.1.0
+                Texas Instruments Tiva C Series Device Support and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_Target_1
+  C:\Users\Shrouk\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include
+  C:\Users\Shrouk\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:6.1.0
+Target not created.
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
