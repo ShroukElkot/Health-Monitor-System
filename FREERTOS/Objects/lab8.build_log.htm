@@ -1,0 +1,656 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.32.0.0
+Copyright (C) 2020 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: shrouk elkot, -, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.32.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.14.1
+Assembler:       Armasm.exe V6.14.1
+Linker/Locator:  ArmLink.exe V6.14.1
+Library Manager: ArmAr.exe V6.14.1
+Hex Converter:   FromElf.exe V6.14.1
+CPU DLL:         SARMCM3.DLL V5.32.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      lmidk-agdi.dll V???
+Dialog DLL:      TCM.DLL V1.46.0.0
+ 
+<h2>Project:</h2>
+C:\Users\Shrouk\Downloads\tivac_project\lab8.uvprojx
+Project File Date:  05/11/2025
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.14.1', folder: 'C:\Keil_v5\ARM\ARMCLANG\Bin'
+Build target 'Target 1'
+project.c(17): warning: non-portable path to file '"inc/tm4c123gh6pm.h"'; specified path differs in case from file name on disk [-Wnonportable-include-path]
+#include "inc/TM4C123GH6PM.h"
+         ^~~~~~~~~~~~~~~~~~~~
+         "inc/tm4c123gh6pm.h"
+project.c(18): warning: In file included from...
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123.h(98): warning: In file included from...
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(298): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(338): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(357): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(713): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(729): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(774): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(779): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(872): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(885): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(892): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(897): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(904): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(910): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(917): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(924): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(929): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(936): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(942): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(949): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(956): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(961): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(968): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(974): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(981): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(988): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(993): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1000): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1006): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1013): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1020): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1025): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1032): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1038): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1045): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1052): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1057): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1064): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1070): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1077): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1084): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1089): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1096): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1102): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1251): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1543): warning: 'WATCHDOG0_BASE' macro redefined [-Wmacro-redefined]
+#define WATCHDOG0_BASE                  0x40000000UL
+        ^
+./inc/hw_memmap.h(51): note: previous definition is here
+#define WATCHDOG0_BASE          0x40000000  // Watchdog0
+        ^
+project.c(18): warning: In file included from...
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123.h(98): warning: In file included from...
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1544): warning: 'WATCHDOG1_BASE' macro redefined [-Wmacro-redefined]
+#define WATCHDOG1_BASE                  0x40001000UL
+        ^
+./inc/hw_memmap.h(52): note: previous definition is here
+#define WATCHDOG1_BASE          0x40001000  // Watchdog1
+        ^
+project.c(18): warning: In file included from...
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123.h(98): warning: In file included from...
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1549): warning: 'SSI0_BASE' macro redefined [-Wmacro-redefined]
+#define SSI0_BASE                       0x40008000UL
+        ^
+./inc/hw_memmap.h(57): note: previous definition is here
+#define SSI0_BASE               0x40008000  // SSI0
+        ^
+project.c(18): warning: In file included from...
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123.h(98): warning: In file included from...
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1550): warning: 'SSI1_BASE' macro redefined [-Wmacro-redefined]
+#define SSI1_BASE                       0x40009000UL
+        ^
+./inc/hw_memmap.h(58): note: previous definition is here
+#define SSI1_BASE               0x40009000  // SSI1
+        ^
+project.c(18): warning: In file included from...
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123.h(98): warning: In file included from...
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1551): warning: 'SSI2_BASE' macro redefined [-Wmacro-redefined]
+#define SSI2_BASE                       0x4000A000UL
+        ^
+./inc/hw_memmap.h(59): note: previous definition is here
+#define SSI2_BASE               0x4000A000  // SSI2
+        ^
+project.c(18): warning: In file included from...
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123.h(98): warning: In file included from...
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1552): warning: 'SSI3_BASE' macro redefined [-Wmacro-redefined]
+#define SSI3_BASE                       0x4000B000UL
+        ^
+./inc/hw_memmap.h(60): note: previous definition is here
+#define SSI3_BASE               0x4000B000  // SSI3
+        ^
+project.c(18): warning: In file included from...
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123.h(98): warning: In file included from...
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1553): warning: 'UART0_BASE' macro redefined [-Wmacro-redefined]
+#define UART0_BASE                      0x4000C000UL
+        ^
+./inc/hw_memmap.h(61): note: previous definition is here
+#define UART0_BASE              0x4000C000  // UART0
+        ^
+project.c(18): warning: In file included from...
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123.h(98): warning: In file included from...
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1554): warning: 'UART1_BASE' macro redefined [-Wmacro-redefined]
+#define UART1_BASE                      0x4000D000UL
+        ^
+./inc/hw_memmap.h(62): note: previous definition is here
+#define UART1_BASE              0x4000D000  // UART1
+        ^
+project.c(18): warning: In file included from...
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123.h(98): warning: In file included from...
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1555): warning: 'UART2_BASE' macro redefined [-Wmacro-redefined]
+#define UART2_BASE                      0x4000E000UL
+        ^
+./inc/hw_memmap.h(63): note: previous definition is here
+#define UART2_BASE              0x4000E000  // UART2
+        ^
+project.c(18): warning: In file included from...
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123.h(98): warning: In file included from...
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1556): warning: 'UART3_BASE' macro redefined [-Wmacro-redefined]
+#define UART3_BASE                      0x4000F000UL
+        ^
+./inc/hw_memmap.h(64): note: previous definition is here
+#define UART3_BASE              0x4000F000  // UART3
+        ^
+project.c(18): warning: In file included from...
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123.h(98): warning: In file included from...
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1557): warning: 'UART4_BASE' macro redefined [-Wmacro-redefined]
+#define UART4_BASE                      0x40010000UL
+        ^
+./inc/hw_memmap.h(65): note: previous definition is here
+#define UART4_BASE              0x40010000  // UART4
+        ^
+project.c(18): warning: In file included from...
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123.h(98): warning: In file included from...
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1558): warning: 'UART5_BASE' macro redefined [-Wmacro-redefined]
+#define UART5_BASE                      0x40011000UL
+        ^
+./inc/hw_memmap.h(66): note: previous definition is here
+#define UART5_BASE              0x40011000  // UART5
+        ^
+project.c(18): warning: In file included from...
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123.h(98): warning: In file included from...
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1559): warning: 'UART6_BASE' macro redefined [-Wmacro-redefined]
+#define UART6_BASE                      0x40012000UL
+        ^
+./inc/hw_memmap.h(67): note: previous definition is here
+#define UART6_BASE              0x40012000  // UART6
+        ^
+project.c(18): warning: In file included from...
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123.h(98): warning: In file included from...
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1560): warning: 'UART7_BASE' macro redefined [-Wmacro-redefined]
+#define UART7_BASE                      0x40013000UL
+        ^
+./inc/hw_memmap.h(68): note: previous definition is here
+#define UART7_BASE              0x40013000  // UART7
+        ^
+project.c(18): warning: In file included from...
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123.h(98): warning: In file included from...
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1561): warning: 'I2C0_BASE' macro redefined [-Wmacro-redefined]
+#define I2C0_BASE                       0x40020000UL
+        ^
+./inc/hw_memmap.h(69): note: previous definition is here
+#define I2C0_BASE               0x40020000  // I2C0
+        ^
+project.c(18): warning: In file included from...
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123.h(98): warning: In file included from...
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1562): warning: 'I2C1_BASE' macro redefined [-Wmacro-redefined]
+#define I2C1_BASE                       0x40021000UL
+        ^
+./inc/hw_memmap.h(70): note: previous definition is here
+#define I2C1_BASE               0x40021000  // I2C1
+        ^
+project.c(18): warning: In file included from...
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123.h(98): warning: In file included from...
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1563): warning: 'I2C2_BASE' macro redefined [-Wmacro-redefined]
+#define I2C2_BASE                       0x40022000UL
+        ^
+./inc/hw_memmap.h(71): note: previous definition is here
+#define I2C2_BASE               0x40022000  // I2C2
+        ^
+project.c(18): warning: In file included from...
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123.h(98): warning: In file included from...
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1564): warning: 'I2C3_BASE' macro redefined [-Wmacro-redefined]
+#define I2C3_BASE                       0x40023000UL
+        ^
+./inc/hw_memmap.h(72): note: previous definition is here
+#define I2C3_BASE               0x40023000  // I2C3
+        ^
+project.c(18): warning: In file included from...
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123.h(98): warning: In file included from...
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1567): warning: 'PWM0_BASE' macro redefined [-Wmacro-redefined]
+#define PWM0_BASE                       0x40028000UL
+        ^
+./inc/hw_memmap.h(77): note: previous definition is here
+#define PWM0_BASE               0x40028000  // Pulse Width Modulator (PWM)
+        ^
+project.c(18): warning: In file included from...
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123.h(98): warning: In file included from...
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1568): warning: 'PWM1_BASE' macro redefined [-Wmacro-redefined]
+#define PWM1_BASE                       0x40029000UL
+        ^
+./inc/hw_memmap.h(78): note: previous definition is here
+#define PWM1_BASE               0x40029000  // Pulse Width Modulator (PWM)
+        ^
+project.c(18): warning: In file included from...
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123.h(98): warning: In file included from...
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1569): warning: 'QEI0_BASE' macro redefined [-Wmacro-redefined]
+#define QEI0_BASE                       0x4002C000UL
+        ^
+./inc/hw_memmap.h(79): note: previous definition is here
+#define QEI0_BASE               0x4002C000  // QEI0
+        ^
+project.c(18): warning: In file included from...
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123.h(98): warning: In file included from...
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1570): warning: 'QEI1_BASE' macro redefined [-Wmacro-redefined]
+#define QEI1_BASE                       0x4002D000UL
+        ^
+./inc/hw_memmap.h(80): note: previous definition is here
+#define QEI1_BASE               0x4002D000  // QEI1
+        ^
+project.c(18): warning: In file included from...
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123.h(98): warning: In file included from...
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1571): warning: 'TIMER0_BASE' macro redefined [-Wmacro-redefined]
+#define TIMER0_BASE                     0x40030000UL
+        ^
+./inc/hw_memmap.h(81): note: previous definition is here
+#define TIMER0_BASE             0x40030000  // Timer0
+        ^
+project.c(18): warning: In file included from...
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123.h(98): warning: In file included from...
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1572): warning: 'TIMER1_BASE' macro redefined [-Wmacro-redefined]
+#define TIMER1_BASE                     0x40031000UL
+        ^
+./inc/hw_memmap.h(82): note: previous definition is here
+#define TIMER1_BASE             0x40031000  // Timer1
+        ^
+project.c(18): warning: In file included from...
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123.h(98): warning: In file included from...
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1573): warning: 'TIMER2_BASE' macro redefined [-Wmacro-redefined]
+#define TIMER2_BASE                     0x40032000UL
+        ^
+./inc/hw_memmap.h(83): note: previous definition is here
+#define TIMER2_BASE             0x40032000  // Timer2
+        ^
+project.c(18): warning: In file included from...
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123.h(98): warning: In file included from...
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1574): warning: 'TIMER3_BASE' macro redefined [-Wmacro-redefined]
+#define TIMER3_BASE                     0x40033000UL
+        ^
+./inc/hw_memmap.h(84): note: previous definition is here
+#define TIMER3_BASE             0x40033000  // Timer3
+        ^
+project.c(18): warning: In file included from...
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123.h(98): warning: In file included from...
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1575): warning: 'TIMER4_BASE' macro redefined [-Wmacro-redefined]
+#define TIMER4_BASE                     0x40034000UL
+        ^
+./inc/hw_memmap.h(85): note: previous definition is here
+#define TIMER4_BASE             0x40034000  // Timer4
+        ^
+project.c(18): warning: In file included from...
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123.h(98): warning: In file included from...
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1576): warning: 'TIMER5_BASE' macro redefined [-Wmacro-redefined]
+#define TIMER5_BASE                     0x40035000UL
+        ^
+./inc/hw_memmap.h(86): note: previous definition is here
+#define TIMER5_BASE             0x40035000  // Timer5
+        ^
+project.c(18): warning: In file included from...
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123.h(98): warning: In file included from...
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1577): warning: 'WTIMER0_BASE' macro redefined [-Wmacro-redefined]
+#define WTIMER0_BASE                    0x40036000UL
+        ^
+./inc/hw_memmap.h(87): note: previous definition is here
+#define WTIMER0_BASE            0x40036000  // Wide Timer0
+        ^
+project.c(18): warning: In file included from...
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123.h(98): warning: In file included from...
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1578): warning: 'WTIMER1_BASE' macro redefined [-Wmacro-redefined]
+#define WTIMER1_BASE                    0x40037000UL
+        ^
+./inc/hw_memmap.h(88): note: previous definition is here
+#define WTIMER1_BASE            0x40037000  // Wide Timer1
+        ^
+project.c(18): warning: In file included from...
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123.h(98): warning: In file included from...
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1579): warning: 'ADC0_BASE' macro redefined [-Wmacro-redefined]
+#define ADC0_BASE                       0x40038000UL
+        ^
+./inc/hw_memmap.h(89): note: previous definition is here
+#define ADC0_BASE               0x40038000  // ADC0
+        ^
+project.c(18): warning: In file included from...
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123.h(98): warning: In file included from...
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1580): warning: 'ADC1_BASE' macro redefined [-Wmacro-redefined]
+#define ADC1_BASE                       0x40039000UL
+        ^
+./inc/hw_memmap.h(90): note: previous definition is here
+#define ADC1_BASE               0x40039000  // ADC1
+        ^
+project.c(18): warning: In file included from...
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123.h(98): warning: In file included from...
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1581): warning: 'COMP_BASE' macro redefined [-Wmacro-redefined]
+#define COMP_BASE                       0x4003C000UL
+        ^
+./inc/hw_memmap.h(91): note: previous definition is here
+#define COMP_BASE               0x4003C000  // Analog comparators
+        ^
+project.c(18): warning: In file included from...
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123.h(98): warning: In file included from...
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1582): warning: 'CAN0_BASE' macro redefined [-Wmacro-redefined]
+#define CAN0_BASE                       0x40040000UL
+        ^
+./inc/hw_memmap.h(93): note: previous definition is here
+#define CAN0_BASE               0x40040000  // CAN0
+        ^
+project.c(18): warning: In file included from...
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123.h(98): warning: In file included from...
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1583): warning: 'CAN1_BASE' macro redefined [-Wmacro-redefined]
+#define CAN1_BASE                       0x40041000UL
+        ^
+./inc/hw_memmap.h(94): note: previous definition is here
+#define CAN1_BASE               0x40041000  // CAN1
+        ^
+project.c(18): warning: In file included from...
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123.h(98): warning: In file included from...
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1584): warning: 'WTIMER2_BASE' macro redefined [-Wmacro-redefined]
+#define WTIMER2_BASE                    0x4004C000UL
+        ^
+./inc/hw_memmap.h(95): note: previous definition is here
+#define WTIMER2_BASE            0x4004C000  // Wide Timer2
+        ^
+project.c(18): warning: In file included from...
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123.h(98): warning: In file included from...
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1585): warning: 'WTIMER3_BASE' macro redefined [-Wmacro-redefined]
+#define WTIMER3_BASE                    0x4004D000UL
+        ^
+./inc/hw_memmap.h(96): note: previous definition is here
+#define WTIMER3_BASE            0x4004D000  // Wide Timer3
+        ^
+project.c(18): warning: In file included from...
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123.h(98): warning: In file included from...
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1586): warning: 'WTIMER4_BASE' macro redefined [-Wmacro-redefined]
+#define WTIMER4_BASE                    0x4004E000UL
+        ^
+./inc/hw_memmap.h(97): note: previous definition is here
+#define WTIMER4_BASE            0x4004E000  // Wide Timer4
+        ^
+project.c(18): warning: In file included from...
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123.h(98): warning: In file included from...
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1587): warning: 'WTIMER5_BASE' macro redefined [-Wmacro-redefined]
+#define WTIMER5_BASE                    0x4004F000UL
+        ^
+./inc/hw_memmap.h(98): note: previous definition is here
+#define WTIMER5_BASE            0x4004F000  // Wide Timer5
+        ^
+project.c(18): warning: In file included from...
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123.h(98): warning: In file included from...
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1588): warning: 'USB0_BASE' macro redefined [-Wmacro-redefined]
+#define USB0_BASE                       0x40050000UL
+        ^
+./inc/hw_memmap.h(99): note: previous definition is here
+#define USB0_BASE               0x40050000  // USB 0 Controller
+        ^
+project.c(18): warning: In file included from...
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123.h(98): warning: In file included from...
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1595): warning: 'EEPROM_BASE' macro redefined [-Wmacro-redefined]
+#define EEPROM_BASE                     0x400AF000UL
+        ^
+./inc/hw_memmap.h(121): note: previous definition is here
+#define EEPROM_BASE             0x400AF000  // EEPROM memory
+        ^
+project.c(18): warning: In file included from...
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123.h(98): warning: In file included from...
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1596): warning: 'SYSEXC_BASE' macro redefined [-Wmacro-redefined]
+#define SYSEXC_BASE                     0x400F9000UL
+        ^
+./inc/hw_memmap.h(133): note: previous definition is here
+#define SYSEXC_BASE             0x400F9000  // System Exception Module
+        ^
+project.c(18): warning: In file included from...
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123.h(98): warning: In file included from...
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1597): warning: 'HIB_BASE' macro redefined [-Wmacro-redefined]
+#define HIB_BASE                        0x400FC000UL
+        ^
+./inc/hw_memmap.h(134): note: previous definition is here
+#define HIB_BASE                0x400FC000  // Hibernation Module
+        ^
+project.c(18): warning: In file included from...
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123.h(98): warning: In file included from...
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1598): warning: 'FLASH_CTRL_BASE' macro redefined [-Wmacro-redefined]
+#define FLASH_CTRL_BASE                 0x400FD000UL
+        ^
+./inc/hw_memmap.h(135): note: previous definition is here
+#define FLASH_CTRL_BASE         0x400FD000  // FLASH Controller
+        ^
+project.c(18): warning: In file included from...
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123.h(98): warning: In file included from...
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1599): warning: 'SYSCTL_BASE' macro redefined [-Wmacro-redefined]
+#define SYSCTL_BASE                     0x400FE000UL
+        ^
+./inc/hw_memmap.h(136): note: previous definition is here
+#define SYSCTL_BASE             0x400FE000  // System Control
+        ^
+project.c(18): warning: In file included from...
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123.h(98): warning: In file included from...
+C:/Users/Shrouk/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1600): warning: 'UDMA_BASE' macro redefined [-Wmacro-redefined]
+#define UDMA_BASE                       0x400FF000UL
+        ^
+./inc/hw_memmap.h(137): note: previous definition is here
+#define UDMA_BASE               0x400FF000  // uDMA Controller
+        ^
+project.c(45): warning: no previous prototype for function 'UART3_Init' [-Wmissing-prototypes]
+void UART3_Init(void) {
+     ^
+project.c(45): note: declare 'static' if the function is not intended to be used outside of this translation unit
+void UART3_Init(void) {
+^
+static 
+project.c(66): warning: no previous prototype for function 'UART3_OutChar' [-Wmissing-prototypes]
+void UART3_OutChar(char data) {
+     ^
+project.c(66): note: declare 'static' if the function is not intended to be used outside of this translation unit
+void UART3_OutChar(char data) {
+^
+static 
+project.c(72): warning: no previous prototype for function 'UART3_OutString' [-Wmissing-prototypes]
+void UART3_OutString(const char* str) {
+     ^
+project.c(72): note: declare 'static' if the function is not intended to be used outside of this translation unit
+void UART3_OutString(const char* str) {
+^
+static 
+project.c(81): warning: empty expression statement has no effect; remove unnecessary ';' to silence this warning [-Wextra-semi-stmt]
+    while ((SYSCTL_PRGPIO_R & (1 << 5)) == 0) {};  // Wait for Port F ready
+                                                ^~
+project.c(86): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+    GPIO_PORTF_DIR_R &= ~(1 << 4);        // PF4 (SW1) input
+                     ~~ ^~~~~~~~~
+project.c(79): warning: no previous prototype for function 'PortF_Init' [-Wmissing-prototypes]
+void PortF_Init(void) {
+     ^
+project.c(79): note: declare 'static' if the function is not intended to be used outside of this translation unit
+void PortF_Init(void) {
+^
+static 
+project.c(96): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+    GPIO_PORTE_DEN_R &= ~0x08;
+                     ~~ ^~~~~
+project.c(99): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+    ADC0_ACTSS_R &= ~8;
+                 ~~ ^~
+project.c(100): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+    ADC0_EMUX_R &= ~0xF000;
+                ~~ ^~~~~~~
+project.c(92): warning: no previous prototype for function 'ADC0_Init' [-Wmissing-prototypes]
+void ADC0_Init(void) {
+     ^
+project.c(92): note: declare 'static' if the function is not intended to be used outside of this translation unit
+void ADC0_Init(void) {
+^
+static 
+project.c(107): warning: no previous prototype for function 'ADC0_Read' [-Wmissing-prototypes]
+uint32_t ADC0_Read(void) {
+         ^
+project.c(107): note: declare 'static' if the function is not intended to be used outside of this translation unit
+uint32_t ADC0_Read(void) {
+^
+static 
+project.c(118): warning: no previous prototype for function 'InitADC' [-Wmissing-prototypes]
+void InitADC(void){
+     ^
+project.c(118): note: declare 'static' if the function is not intended to be used outside of this translation unit
+void InitADC(void){
+^
+static 
+project.c(139): warning: no previous prototype for function 'ADCRead' [-Wmissing-prototypes]
+uint32_t ADCRead(void){
+         ^
+project.c(139): note: declare 'static' if the function is not intended to be used outside of this translation unit
+uint32_t ADCRead(void){
+^
+static 
+project.c(164): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+                                                                GPIO_PORTF_DATA_R &= ~(1 << 3);       // LED off
+                                                                                  ~~ ^~~~~~~~~
+project.c(167): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+            GPIO_PORTF_DATA_R &= ~(1 << 3);          // Turn OFF Green LED
+                              ~~ ^~~~~~~~~
+project.c(170): warning: no newline at end of file [-Wnewline-eof]
+}
+ ^
+project.c(42): warning: no previous extern declaration for non-static variable 'buffer' [-Wmissing-variable-declarations]
+char buffer[100];
+     ^
+project.c(42): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+char buffer[100];
+^
+108 warnings generated.
+compiling project.c...
+linking...
+Program Size: Code=3008 RO-data=1616 RW-data=0 ZI-data=712  
+".\Objects\lab8.axf" - 0 Error(s), 108 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                https://www.keil.com/pack/ARM.CMSIS.6.1.0.pack
+                ARM.CMSIS.6.1.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 6.1.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.TM4C_DFP.1.1.0.pack
+                Keil.TM4C_DFP.1.1.0
+                Texas Instruments Tiva C Series Device Support and Examples
+   * Component: Startup Version: 1.0.1
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_Target_1
+  C:\Users\Shrouk\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include
+  C:\Users\Shrouk\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:6.1.0
+
+   * Component: Keil::Device:Startup:1.0.1
+      Include file:  Device\Include\TM4C123\TM4C123.h
+      Source file:   Device\Source\ARM\startup_TM4C123.s
+      Source file:   Device\Source\system_TM4C123.c
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
