@@ -5,7 +5,7 @@ An IoT-based system for real-time health monitoring using the Tiva C Series micr
 ---
 
 ## Project Info
-**Date:** Spring 2025  
+**Date:** March 2025  
 
 ---
 
